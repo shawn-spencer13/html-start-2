@@ -2,3 +2,10 @@ body {
   background: #2cb0b0;
   font-family: sans-serif;
 }
+
+p { color: #940c5b;
+}
+
+p.range {
+  color: blue;
+}
