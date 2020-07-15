@@ -9,5 +9,6 @@ page2Button.addEventListener("click", () => {
 });
 
 rangeInput.addEventListener("change", e => {
+  e.preventDefault();
   console.log(e.target.value);
 });
